@@ -389,12 +389,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_78" src="https://github.com/user-attachments/assets/4acdb159-834d-414f-9a84-f4416abac530" />
 </p>
 <p>
-79
+79 After toy hit enter it should ping looking like this showing the replies from the IP address.  
 <p>
 <img <img width="1440" alt="ADI_79" src="https://github.com/user-attachments/assets/a8aac6ef-7678-46d4-8da9-f2e30a73da0e" />
 </p>
 <p>
-80
+80  Next in Powershell run ipconfig /all and press enter. The output shoukd show dc-1's private IP address like in this immage. 
 <p>
 <img <img width="1440" alt="ADI_80" src="https://github.com/user-attachments/assets/a5a9aafd-ed76-4388-941f-fda5a8ad7466" />
 </p>
