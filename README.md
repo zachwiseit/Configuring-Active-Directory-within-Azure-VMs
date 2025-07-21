@@ -186,222 +186,205 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_33" src="https://github.com/user-attachments/assets/631da8ea-6f64-4c79-af10-e61ac51332a5" />
 </p>
 <p>
-35 Next 
+35 Next we are going to log into dc-1 and disable the Windows Firewall. 
+   Go into Virtual machines and copy the Public IP address for dc-1
 <p>
 <img <img width="1440" alt="ADI_35" src="https://github.com/user-attachments/assets/12515ba7-a482-4392-b7e4-6806b533c385" />
 </p>
 <p>
-36
+36 For Mac Open up the Window App and click "Add PC". 
 <p>
 <img <img width="1440" alt="ADI_36" src="https://github.com/user-attachments/assets/b6e048ee-c584-4ebc-86ee-b66a93301055" />
 </p>
-<p>
-37
+<p> 
+37 FOr PC name paste the public IP address, choose a Friendly name, and click "Add".
 <p>
 <img <img width="1440" alt="ADI_37" src="https://github.com/user-attachments/assets/5cabf939-177c-4773-b1e0-d7d9fb31e564" />
 </p>
 <p>
-38
+38 With it added click dc-1. 
 <p>
 <img <img width="1440" alt="ADI_38" src="https://github.com/user-attachments/assets/6278e8d3-1701-46ba-854f-4d215bf78be3" />
 </p>
 <p>
-39
+39 Put in the credientials for that PC. 
 <p>
 <img <img width="1440" alt="ADI_39" src="https://github.com/user-attachments/assets/35749e8f-a702-4ff4-a680-77021deccfc3" />
 </p>
 <p>
-40
+40 Click "Continue".
 <p>
 <img <img width="1440" alt="ADI_40" src="https://github.com/user-attachments/assets/c576c12f-b435-4793-bee8-51854dc92ce7" />
 </p>
 <p>
-41
+41 THen your Windows Server will start up. 
 <p>
 <img <img width="1440" alt="ADI_41" src="https://github.com/user-attachments/assets/ab0cc6e2-5380-4c5b-8c3a-da11a1d2ceb6" />
 </p>
 <p>
-42
+42 IF you did not create a Windows Server You wont see this Sever Manager Dashboard. 
 <p>
 <img <img width="1440" alt="ADI_42" src="https://github.com/user-attachments/assets/51a0fbcc-e099-41dc-aca8-476272013166" />
 </p>
 <p>
-43
+43 Here is another way to confirm if it is correct or not. 
+   Right Click the window and then "Systems".
 <p>
 <img <img width="1440" alt="ADI_43" src="https://github.com/user-attachments/assets/509cf590-f935-484c-9754-23dece0e4a21" />
 </p>
 <p>
-44
+44 In the About section under "Windows Sepcifications you will see Windows Server 2022 Azur Edition. 
+   If you dont see that then unfortunatlty you will have to recreate the vm as a Windows Server. 
 <p>
 <img <img width="1440" alt="ADI_44" src="https://github.com/user-attachments/assets/7e16f3b7-df00-4d98-ba4f-ad3e5d2865ee" />
 </p>
 <p>
-45
+45 NExt right click the start menu nad click "Run". 
 <p>
 <img <img width="1440" alt="ADI_45" src="https://github.com/user-attachments/assets/9e0c9d32-4a54-498b-8ffc-66a0d3a87716" />
 </p>
 <p>
-46
+46 Then type wf.msc and click "OK".
 <p>
 <img <img width="1440" alt="ADI_46" src="https://github.com/user-attachments/assets/4164dec5-ea58-4e76-98d5-8e9b0450f9c0" />
 </p>
 <p>
-47
+47 This will bring up the Windows Defender Firewall. 
+   Click "Windows Defender Firewall Properties". 
 <p>
 <img <img width="1440" alt="ADI_47" src="https://github.com/user-attachments/assets/f36fbaf8-a23f-4b6f-9437-56640f998036" />
 </p>
 <p>
-48
+48 In the Domain Profile tab for Fire wall state vchange it from on to off. 
 <p>
 <img <img width="1440" alt="ADI_48" src="https://github.com/user-attachments/assets/2b5d14f8-0040-42d9-9a33-ac1a486798d1" />
 </p>
 <p>
-49
+49 Do the same for the Firewall state in Private Profile. 
 <p>
 <img <img width="1440" alt="ADI_49" src="https://github.com/user-attachments/assets/f0b36908-634a-4298-80de-ff8d8bf4892b" />
 </p>
 <p>
-50
+50 Then the same for Public Profile as well. 
 <p>
 <img <img width="1440" alt="ADI_50" src="https://github.com/user-attachments/assets/6dc89ada-d89c-4089-803c-520170667e7e" />
 </p>
 <p>
-51
+51 Click "Apply" and then "OK". 
 <p>
 <img <img width="1440" alt="ADI_51" src="https://github.com/user-attachments/assets/8a333735-55be-4391-bec6-a8e2dc710a8d" />
 </p>
 <p>
-52
-<p>
-<img <img width="1440" alt="ADI_52" src="https://github.com/user-attachments/assets/3b2136d9-389c-4871-98f3-55fa4beef542" />
-</p>
-<p>
-53
+53 Clos that page and the Firewall is off. 
 <p>
 <img <img width="1440" alt="ADI_53" src="https://github.com/user-attachments/assets/2e2d1992-795a-458e-9f63-d0efc04e00f4" />
 </p>
 <p>
-54
+54 Now we are going to change the DNS settins in Client-1 to point to dc-1's private IP address. 
+   Go back to Azure and click on "Virtial Machines".
+   Click on "dc-1" under Overview scroll down to its Private IP address and copy it. 
 <p>
 <img <img width="1440" alt="ADI_54" src="https://github.com/user-attachments/assets/2ca3f0a5-744d-465f-aa9b-364b07149850" />
 </p>
 <p>
-55
-<p>
-<img <img width="1440" alt="ADI_55" src="https://github.com/user-attachments/assets/e31e7b88-c126-4a83-9694-00edf26bba8e" />
-</p>
-<p>
-56
+56 Now click on "Client-1 and go to Networking then click "Network Settings". 
 <p>
 <img <img width="1440" alt="ADI_56" src="https://github.com/user-attachments/assets/1b5e80b1-d61c-4daa-bcbb-f7600a7c80a5" />
 </p>
 <p>
-57
+57 Click on the tab Network Interface.
 <p>
 <img <img width="1440" alt="ADI_57" src="https://github.com/user-attachments/assets/cd8d893f-1560-4cf6-9207-131f58f35a5c" />
 </p>
 <p>
-58
+58 On the left click "DNS servers" 
 <p>
 <img <img width="1440" alt="ADI_58" src="https://github.com/user-attachments/assets/f41becbe-3010-478d-aa64-1c987e1449fb" />
 </p>
 <p>
-59
+59 It should be set to inherit from virtual network. change that to custom. 
 <p>
 <img <img width="1440" alt="ADI_59" src="https://github.com/user-attachments/assets/4dba399c-d8a5-4089-8054-db55b0df9d74" />
 </p>
 <p>
-60
+60 Now paste dc-1 private IP address in the DNS server.
 <p>
 <img <img width="1440" alt="ADI_60" src="https://github.com/user-attachments/assets/8d534c09-0e38-4efa-8e57-515c69d7f706" />
 </p>
 <p>
-61
+61 Then click Save at the top. 
 <p>
 <img <img width="1440" alt="ADI_61" src="https://github.com/user-attachments/assets/bb83dbe2-6d7a-4b4f-ac2f-2c36354cf3c4" />
 </p>
 <p>
-62
-<p>
-<img <img width="1440" alt="ADI_62" src="https://github.com/user-attachments/assets/dae3843b-9f94-4bd7-8b1b-daf17c1a2307" />
-</p>
-<p>
-63
+63 Next we need to restart Client-1 from the Azure portal. 
+   Click the box next to client-1. 
 <p>
 <img <img width="1440" alt="ADI_63" src="https://github.com/user-attachments/assets/1bf64d2f-25df-4e50-b353-b3949019e5df" />
 </p>
 <p>
-64
+64 Click "Restart" at the top right. 
 <p>
 <img <img width="1440" alt="ADI_64" src="https://github.com/user-attachments/assets/0907894e-0e8e-487d-8f50-afc53f460551" />
 </p>
 <p>
-65
+65 Click "Yes".
 <p>
 <img <img width="1440" alt="ADI_65" src="https://github.com/user-attachments/assets/cce2ea40-0235-40e1-a0b3-86b87c22309e" />
 </p>
 <p>
-66
+66 Now that its restarted we are going to log into client-1 and ping dc-1 private IP address. 
+   Next we need to add client-1 as a PC and log into it. 
 <p>
 <img <img width="1440" alt="ADI_66" src="https://github.com/user-attachments/assets/260f3d07-1d0f-4d6a-a3f7-0b791d43117e" />
 </p>
 <p>
-67
+67 Copy the public IP addrees for client-1.
 <p>
 <img <img width="1440" alt="ADI_67" src="https://github.com/user-attachments/assets/40958800-7dcc-489e-a9c5-ea4407af0b43" />
 </p>
 <p>
-68
+68 Paste it into the PC name, enter a Friendly name and press ADD
 <p>
 <img <img width="1440" alt="ADI_68" src="https://github.com/user-attachments/assets/b3526750-10a1-4cb5-a724-5cf7e4d7472c" />
 </p>
 <p>
-69
+69 Enter the client-1's credentials. 
 <p>
 <img <img width="1440" alt="ADI_69" src="https://github.com/user-attachments/assets/cfd2fc57-fa5b-4d35-838d-b149e8ba6c93" />
 </p>
 <p>
-70
+70 Click "Continue" 
 <p>
 <img <img width="1440" alt="ADI_70" src="https://github.com/user-attachments/assets/0cf823e3-bcef-4391-81d5-1f2c7a35f38b" />
 </p>
 <p>
-71
+71 Select no for everything and click "Accept".
 <p>
 <img <img width="1440" alt="ADI_71" src="https://github.com/user-attachments/assets/e1e25f61-b03c-47fc-b523-2f1750502d9b" />
 </p>
 <p>
-72
+72 Now we can attempt to ping dc-1's private IP address but first we need to get it. 
 <p>
 <img <img width="1440" alt="ADI_72" src="https://github.com/user-attachments/assets/ff26720d-9973-4d2e-924b-8a1036ab8e4c" />
 </p>
 <p>
-73
+73 Back in Azure under Virtual Machines click "dc-1" and under Overveiw copy the Private IP address. 
 <p>
 <img <img width="1440" alt="ADI_73" src="https://github.com/user-attachments/assets/6c25f89a-de8f-49f1-98d8-8958f2fe77de" />
 </p>
 <p>
-74
+74  Back in client-1 in the search bar type in powershell and open "Windows PowerShell". 
 <p>
 <img <img width="1440" alt="ADI_74" src="https://github.com/user-attachments/assets/7bd51889-534f-4701-9999-dc83d83f4a18" />
 </p>
 <p>
-75
-<p>
-<img <img width="1440" alt="ADI_75" src="https://github.com/user-attachments/assets/a9dddaf7-1abf-44e2-b859-b4edfebab61a" />
-</p>
-<p>
-76
-<p>
-<img <img width="1440" alt="ADI_76" src="https://github.com/user-attachments/assets/604e6341-5f47-44c4-8788-7cfc5f54167c" />
-</p>
-<p>
-77
+77 Next to "labuser>" type ping and paste the privat IP address. 
 <p>
 <img <img width="1440" alt="ADI_77" src="https://github.com/user-attachments/assets/7aa47eff-d730-40e9-bf90-db19772f2688" />
 </p>
 <p>
-78
+78 Just like this and click enter. 
 <p>
 <img <img width="1440" alt="ADI_78" src="https://github.com/user-attachments/assets/4acdb159-834d-414f-9a84-f4416abac530" />
 </p>
