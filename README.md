@@ -255,7 +255,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_47" src="https://github.com/user-attachments/assets/f36fbaf8-a23f-4b6f-9437-56640f998036" />
 </p>
 <p>
-48 In the Domain Profile tab for Fire wall state vchange it from on to off. 
+48 In the Domain Profile tab for Fire wall state change it from on to off. 
 <p>
 <img <img width="1440" alt="ADI_48" src="https://github.com/user-attachments/assets/2b5d14f8-0040-42d9-9a33-ac1a486798d1" />
 </p>
@@ -275,13 +275,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_51" src="https://github.com/user-attachments/assets/8a333735-55be-4391-bec6-a8e2dc710a8d" />
 </p>
 <p>
-53 Clos that page and the Firewall is off. 
+53 Close that page and the Firewall is off. 
 <p>
 <img <img width="1440" alt="ADI_53" src="https://github.com/user-attachments/assets/2e2d1992-795a-458e-9f63-d0efc04e00f4" />
 </p>
 <p>
-54 Now we are going to change the DNS settins in Client-1 to point to dc-1's private IP address. 
-   Go back to Azure and click on "Virtial Machines".
+54 Now we are going to change the DNS settings in Client-1 to point to dc-1's private IP address. 
+   Go back to Azure and click on "Virtual Machines".
    Click on "dc-1" under Overview scroll down to its Private IP address and copy it. 
 <p>
 <img <img width="1440" alt="ADI_54" src="https://github.com/user-attachments/assets/2ca3f0a5-744d-465f-aa9b-364b07149850" />
@@ -339,7 +339,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_66" src="https://github.com/user-attachments/assets/260f3d07-1d0f-4d6a-a3f7-0b791d43117e" />
 </p>
 <p>
-67 Copy the public IP addrees for client-1.
+67 Copy the public IP address for client-1.
 <p>
 <img <img width="1440" alt="ADI_67" src="https://github.com/user-attachments/assets/40958800-7dcc-489e-a9c5-ea4407af0b43" />
 </p>
@@ -379,7 +379,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_74" src="https://github.com/user-attachments/assets/7bd51889-534f-4701-9999-dc83d83f4a18" />
 </p>
 <p>
-77 Next to "labuser>" type ping and paste the privat IP address. 
+77 Next to "labuser>" type ping and paste the private IP address. 
 <p>
 <img <img width="1440" alt="ADI_77" src="https://github.com/user-attachments/assets/7aa47eff-d730-40e9-bf90-db19772f2688" />
 </p>
@@ -389,12 +389,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_78" src="https://github.com/user-attachments/assets/4acdb159-834d-414f-9a84-f4416abac530" />
 </p>
 <p>
-79 After toy hit enter it should ping looking like this showing the replies from the IP address.  
+79 After you hit Enter it should ping looking like this showing the replies from the IP address
 <p>
 <img <img width="1440" alt="ADI_79" src="https://github.com/user-attachments/assets/a8aac6ef-7678-46d4-8da9-f2e30a73da0e" />
 </p>
 <p>
-80  Next in Powershell run ipconfig /all and press enter. The output shoukd show dc-1's private IP address like in this immage. 
+80  Next in Powershell run ipconfig /all and press enter. The output should show dc-1's private IP address like in this image. 
 <p>
 <img <img width="1440" alt="ADI_80" src="https://github.com/user-attachments/assets/a5a9aafd-ed76-4388-941f-fda5a8ad7466" />
 </p>
