@@ -228,18 +228,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 43 Here is another way to confirm if it is correct or not. 
-   Right Click the window and then "Systems".
+   Right Click the window and then "System".
 <p>
 <img <img width="1440" alt="ADI_43" src="https://github.com/user-attachments/assets/509cf590-f935-484c-9754-23dece0e4a21" />
 </p>
 <p>
-44 In the About section under "Windows Sepcifications you will see Windows Server 2022 Azur Edition. 
-   If you dont see that then unfortunatlty you will have to recreate the vm as a Windows Server. 
+44 In the About section under "Windows Specifications you will see Windows Server 2022 Azure Edition. 
+   If you don’t see that then unfortunatlty you will have to recreate the vm as a Windows Server. 
 <p>
 <img <img width="1440" alt="ADI_44" src="https://github.com/user-attachments/assets/7e16f3b7-df00-4d98-ba4f-ad3e5d2865ee" />
 </p>
 <p>
-45 NExt right click the start menu nad click "Run". 
+45 Next right click the start menu and click "Run". 
 <p>
 <img <img width="1440" alt="ADI_45" src="https://github.com/user-attachments/assets/9e0c9d32-4a54-498b-8ffc-66a0d3a87716" />
 </p>
