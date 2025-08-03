@@ -88,7 +88,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_11" src="https://github.com/user-attachments/assets/3511107f-93fa-4af1-a4ec-e09b7eda13b7" />
 </p>
 <p>
-12 Scroll down to "Image" and MAKE SURE yiu choose Windows Server 2022. If you choose anything else the rest of this will not work.
+12 Scroll down to "Image" and MAKE SURE you choose Windows Server 2022. If you choose anything else the rest of this will not work.
 <p>
 <img <img width="1440" alt="ADI_12" src="https://github.com/user-attachments/assets/2d19a02c-27f3-4d2d-bdb1-0eac5528efd5" />
 </p>
@@ -108,7 +108,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_16" src="https://github.com/user-attachments/assets/1da372f5-8d91-48b7-8abc-0e0816c4709a" />
 </p>
 <p>
-18 For Virtual network choose the network created earlier. Leave the other settings as is and click "Reveiw + Create". 
+18 For Virtual network choose the network created earlier. Leave the other settings as is and click "Review + Create". 
 <p>
 <img <img width="1440" alt="ADI_18" src="https://github.com/user-attachments/assets/08136261-00d2-427f-9bea-857f07c84c2f" />
 </p>
@@ -161,12 +161,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_28" src="https://github.com/user-attachments/assets/72b0ba26-fdc3-4aa0-81f6-f46cc1c73d10" />
 </p>
 <p>
-29 (provide explenation later) Next we need set the virtual NIC private IP address to stay static. 
+29 (provide explanation later) Next we need set the virtual NIC private IP address to stay static. 
 <p>
 <img <img width="1440" alt="ADI_29" src="https://github.com/user-attachments/assets/60e5b6d3-8744-4983-a90a-ebf5770c0afd" />
 </p>
 <p>
-30 In Virtual Machines click on dc-1(The windows server vm you created) and click "Network Settings". 
+30 In Virtual Machines click on dc-1(the Windows Server VM you created) and click "Network Settings". 
 <p>
 <img <img width="1440" alt="ADI_30" src="https://github.com/user-attachments/assets/d929619f-9d9f-44db-98e2-1ef44cd72e01" />
 </p>
@@ -197,7 +197,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_36" src="https://github.com/user-attachments/assets/b6e048ee-c584-4ebc-86ee-b66a93301055" />
 </p>
 <p> 
-37 FOr PC name paste the public IP address, choose a Friendly name, and click "Add".
+37 For PC name paste the public IP address, choose a Friendly name, and click "Add".
 <p>
 <img <img width="1440" alt="ADI_37" src="https://github.com/user-attachments/assets/5cabf939-177c-4773-b1e0-d7d9fb31e564" />
 </p>
@@ -207,7 +207,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_38" src="https://github.com/user-attachments/assets/6278e8d3-1701-46ba-854f-4d215bf78be3" />
 </p>
 <p>
-39 Put in the credientials for that PC. 
+39 Put in the credentials for that PC. 
 <p>
 <img <img width="1440" alt="ADI_39" src="https://github.com/user-attachments/assets/35749e8f-a702-4ff4-a680-77021deccfc3" />
 </p>
@@ -217,12 +217,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1440" alt="ADI_40" src="https://github.com/user-attachments/assets/c576c12f-b435-4793-bee8-51854dc92ce7" />
 </p>
 <p>
-41 THen your Windows Server will start up. 
+41 Then your Windows Server will start up. 
 <p>
 <img <img width="1440" alt="ADI_41" src="https://github.com/user-attachments/assets/ab0cc6e2-5380-4c5b-8c3a-da11a1d2ceb6" />
 </p>
 <p>
-42 IF you did not create a Windows Server You wont see this Sever Manager Dashboard. 
+42 IF you did not create a Windows Server You wont see this Server Manager Dashboard. 
 <p>
 <img <img width="1440" alt="ADI_42" src="https://github.com/user-attachments/assets/51a0fbcc-e099-41dc-aca8-476272013166" />
 </p>
