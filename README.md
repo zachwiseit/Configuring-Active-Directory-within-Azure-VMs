@@ -3,7 +3,7 @@
 </p>
 
 <h1>Cloud-Based Active Directory Deployment (Azure)</h1>
-This tutorial guides you through the essential steps to set up Active Directory in Azure and deploy it on a Virtual Machine.<br />
+This tutorial guides you through the essential steps to set up Active Directory and deploy it on a Virtual Machine.<br />
 
 
 <h2>Environments and Technologies Used</h2>
