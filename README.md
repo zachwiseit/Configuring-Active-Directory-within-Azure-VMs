@@ -398,3 +398,4 @@ Next in Powershell run ipconfig /all and press enter. The output should show dc-
 <img <img width="1440" alt="ADI_80" src="https://github.com/user-attachments/assets/a5a9aafd-ed76-4388-941f-fda5a8ad7466" />
 </p>
 <p>
+Use this link to move on to the next step in the tutorial.[Configuring-Active-Directory-within-Azure-VMs](https://github.com/zachwiseit/Configuring-Active-Directory-within-Azure-VMs/blob/main/README.md)
