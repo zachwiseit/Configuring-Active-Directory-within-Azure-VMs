@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Cloud-Based Active Directory Deployment (Azure)</h1>
 This tutorial guides you through the essential steps to set up Active Directory in Azure and deploy it on a Virtual Machine.<br />
 
 
@@ -22,10 +22,11 @@ This tutorial guides you through the essential steps to set up Active Directory 
 
 <h2>High-Level Deployment Steps</h2>
 
-- Set up Domain Controller in Azure 
-- Set up Client 1 
+- Build a Domain Controller and Client Virtual Machines
 - Install Active Directory 
-- 
+- Creating users with Powershell
+- Configuring a Group Policy
+- Enabling and Disabling Accounts
 
 <h2>Deployment and Configuration Steps</h2>
 1 First things first go to Azure and Log in. 
