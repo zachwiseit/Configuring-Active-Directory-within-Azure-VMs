@@ -3,7 +3,7 @@
 </p>
 
 <h1>Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial guides you through the essential steps to set up Active Directory in Azure and deploy it on a Virtual Machine.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -12,6 +12,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
+- Windows App(macOS)
 
 <h2>Operating Systems Used </h2>
 
@@ -21,10 +22,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Set up Domain Controller in Azure 
+- Set up Client 1 
+- Install Active Directory 
+- 
 
 <h2>Deployment and Configuration Steps</h2>
 1 First things first go to Azure and Log in. 
