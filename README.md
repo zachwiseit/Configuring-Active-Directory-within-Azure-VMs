@@ -29,133 +29,133 @@ This tutorial guides you through the essential steps to set up Active Directory 
 - Enabling and Disabling Accounts
 
 <h2>Deployment and Configuration Steps</h2>
-1 First things first go to Azure and Log in. 
-  After that go to resource groups. 
+First things first go to Azure and Log in. 
+After that go to resource groups. 
 <p>
 <p>
 <img <img width="1440" alt="ADI_1" src="https://github.com/user-attachments/assets/2d9ac81b-08e8-4e57-ad77-d6ec00d5b3fa" />
 </p>
 <p>
-2 Give your resource group a name, choose a region, and click next. 
+Give your resource group a name, choose a region, and click next. 
 <p>
 <img <img width="1440" alt="ADI_2" src="https://github.com/user-attachments/assets/f332f0f2-06a0-4b45-9ba5-87a1b52a8820" />
 </p>
 <p>
-3 Click "Create". 
+Click "Create". 
 <p>
 <img <img width="1440" alt="ADI_3" src="https://github.com/user-attachments/assets/9c6eb03b-d612-4233-a67d-810403a1d004" />
 </p>
 <p>
-4 Once that is created we will create our virtual network. 
+Once that is created we will create our virtual network. 
 <p>
 <img <img width="1440" alt="ADI_4" src="https://github.com/user-attachments/assets/0903f103-281f-43e1-8052-326c7ad463a4" />
 </p>
 <p>
-5 Go to "Virtual Networks". 
+Go to "Virtual Networks". 
 <p>
 <img <img width="1440" alt="ADI_5" src="https://github.com/user-attachments/assets/681528ed-9d1c-401a-b0bb-4292f890171b" />
 </p>
 <p>
-6 Click "Create".
+Click "Create".
 <p>
 <img <img width="1440" alt="ADI_6" src="https://github.com/user-attachments/assets/02aba210-c9a5-426c-bef8-8d8fb896ba64" />
 </p>
 <p>
-7 Choose the resource group created earlier and choose a "Virtual network name". 
-  At the bottom click "Review + create" until you see create at the bottom. 
+Choose the resource group created earlier and choose a "Virtual network name". 
+At the bottom click "Review + create" until you see create at the bottom. 
 <p>
 <img <img width="1440" alt="ADI_7" src="https://github.com/user-attachments/assets/32715820-3b6f-4b8a-bf3c-cbb550bdaf22" />
 </p>
 <p>
-8 Click "Create". 
+Click "Create". 
 <p>
 <img <img width="1440" alt="ADI_8" src="https://github.com/user-attachments/assets/68b06819-aa5b-4dad-88bb-c29f1a622e89" />
 </p>
 <p>
-9 With our network made next step is to make the virtual machines. 
+With our network made next step is to make the virtual machines. 
 <p>
 <img <img width="1440" alt="ADI_9" src="https://github.com/user-attachments/assets/2997647e-cf92-4cc6-8398-86f9b74bf3fa" />
 </p>
 <p>
-10 Go to "Virtual Machines".
+Go to "Virtual Machines".
 <p>
 <img <img width="1440" alt="ADI_10" src="https://github.com/user-attachments/assets/8a15b73d-db51-475e-9047-4dabbeda996c" />
 </p>
 <p>
-11 Choose your created resource group and choose your virtual machine name. 
+Choose your created resource group and choose your virtual machine name. 
 <p>
 <img <img width="1440" alt="ADI_11" src="https://github.com/user-attachments/assets/3511107f-93fa-4af1-a4ec-e09b7eda13b7" />
 </p>
 <p>
-12 Scroll down to "Image" and MAKE SURE you choose Windows Server 2022. If you choose anything else the rest of this will not work.
+Scroll down to "Image" and MAKE SURE you choose Windows Server 2022. If you choose anything else the rest of this will not work.
 <p>
 <img <img width="1440" alt="ADI_12" src="https://github.com/user-attachments/assets/2d19a02c-27f3-4d2d-bdb1-0eac5528efd5" />
 </p>
 <p>
-13  For Size choose anything with 2 vcpus. Then choose your Username and password. 
+For Size choose anything with 2 vcpus. Then choose your Username and password. 
 <p>
 <img <img width="1440" alt="ADI_13" src="https://github.com/user-attachments/assets/e06a9da6-e91c-45c3-95e9-9f5bc61128d8" />
 </p>
 <p>
-15 Check both licensing boxes at the bottom and click  "Next : Disks". 
+Check both licensing boxes at the bottom and click  "Next : Disks". 
 <p>
 <img <img width="1440" alt="ADI_15" src="https://github.com/user-attachments/assets/042979a9-c07a-4bcc-9d78-fe7f8ff45fd5" />
 </p>
 <p>
-16 Click "Next : Networking" 
+Click "Next : Networking" 
 <p>
 <img <img width="1440" alt="ADI_16" src="https://github.com/user-attachments/assets/1da372f5-8d91-48b7-8abc-0e0816c4709a" />
 </p>
 <p>
-18 For Virtual network choose the network created earlier. Leave the other settings as is and click "Review + Create". 
+For Virtual network choose the network created earlier. Leave the other settings as is and click "Review + Create". 
 <p>
 <img <img width="1440" alt="ADI_18" src="https://github.com/user-attachments/assets/08136261-00d2-427f-9bea-857f07c84c2f" />
 </p>
 <p>
-19 Click "Create" at the bottom.
+Click "Create" at the bottom.
 <p>
 <img <img width="1440" alt="ADI_19" src="https://github.com/user-attachments/assets/e3bbb399-692b-4e94-bf2e-6b7b38e839e4" />
 </p>
 <p>
-20 Now that the virtual machine for the Windows server is created we will create another Virtual machine. 
+Now that the virtual machine for the Windows server is created we will create another Virtual machine. 
 <p>
 <img <img width="1440" alt="ADI_20" src="https://github.com/user-attachments/assets/4510d154-91cf-459b-8b77-dc7650c627d9" />
 </p>
 <p> 
-21 Same as before go to Virtual Machines. 
+Same as before go to Virtual Machines. 
 <p>
 <img <img width="1440" alt="ADI_21" src="https://github.com/user-attachments/assets/c0e73362-666c-4e02-8bd8-df42eb7caa30" />
 </p>
 <p>
-22 Use the same resource group as before and name the VM with something like "client-1". 
-   Choose the same Region as the other VM. 
+Use the same resource group as before and name the VM with something like "client-1". 
+Choose the same Region as the other VM. 
 <p>
 <img <img width="1440" alt="ADI_22" src="https://github.com/user-attachments/assets/0bb080c5-c04d-49f8-9fdc-c023dbfea77c" />
 </p>
 <p>
-24 For the Image make sure to use Windows 10 Pro. 
-   Choose a size that has atleast 2 vcpus.
-   Make a username and password. 
+For the Image make sure to use Windows 10 Pro. 
+Choose a size that has atleast 2 vcpus.
+Make a username and password. 
 <p>
 <img <img width="1440" alt="ADI_24" src="https://github.com/user-attachments/assets/77514393-3058-4890-9476-26b9055b4ec8" />
 </p>
 <p>
-25 Scroll to the bottom, check the Licensing box, and click "Next : Disk". 
+Scroll to the bottom, check the Licensing box, and click "Next : Disk". 
 <p>
 <img <img width="1440" alt="ADI_25" src="https://github.com/user-attachments/assets/2d737b32-6caf-4c93-972e-5915a334a7c7" />
 </p>
 <p>
-26 Click "Next : Networking" 
+Click "Next : Networking" 
 <p>
 <img <img width="1440" alt="ADI_26" src="https://github.com/user-attachments/assets/fd1780c3-ab77-4c44-9928-3c47064c8535" />
 </p>
 <p>
-27 Choose the Vnet you created and click "Review + create". 
+Choose the Vnet you created and click "Review + create". 
 <p>
 <img <img width="1440" alt="ADI_27" src="https://github.com/user-attachments/assets/d184952d-f549-402e-80a2-105f22280195" />
 </p>
 <p>
-28 Click "Create". 
+Click "Create". 
 <p>
 <img <img width="1440" alt="ADI_28" src="https://github.com/user-attachments/assets/72b0ba26-fdc3-4aa0-81f6-f46cc1c73d10" />
 </p>
