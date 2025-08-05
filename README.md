@@ -399,4 +399,4 @@ Next in Powershell run ipconfig /all and press enter. The output should show dc-
 </p>
 <p>
 
-Use this link to move on to the next step in the tutorial. [Creating-Users-with-Power-shell](https://github.com/zachwiseit/Creating-Users-with-Power-shell/edit/main/README.md)
+Use this link to move on to the next step in the tutorial. [Creating-Users-with-Power-shell](https://github.com/zachwiseit/Creating-Users-with-Power-shell/blob/main/README.md)
